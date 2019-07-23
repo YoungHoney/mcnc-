@@ -3,7 +3,7 @@
 #define theta0 0 
 #define n 0.000001
 
-double f_x(double x, double theta1,double theta2,double theta3) {  // 3Â÷ÇÔ¼ö¸ğ¾çÀ¸·Î °¡Á¤
+double f_x(double x, double theta1,double theta2,double theta3) {  // 3ì°¨í•¨ìˆ˜ë¼ ê°€ì •, ì•„ì´ë¦¬ë²„íšŒì‚¬ì˜ ì£¼ì‹
 	return theta0 + (theta1 * x)+(theta2*x*x)+(theta3*x*x*x);
 }
 
